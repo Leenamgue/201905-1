@@ -33,18 +33,18 @@ public class 구구단 {
 //			System.out.print(y + " 단\t\t");
 			result = result + y + " 단";
 //			System.out.print((y + 1) + " 단\t\t");
-			result = result + (y + 1) + " 단\t\t";
+			result = result + (y + 1) + " 단";
 //			System.out.print((y + 2) + " 단\t\t");
-			result = result + (y + 2) + " 단\t\t"; 
+			result = result + (y + 2) + " 단"; 
 //			System.out.println();
 			result = result + "<br>";
 			for(int x = 1; x <= 9; x++) {
 //				System.out.print(y + " * " + x + " = " + (y * x) + "\t");
-				result = result + y + " * " + x + " = " + (y * x) + "\t";
+				result = result + y + " * " + x + " = " + (y * x);
 //				System.out.print((y + 1) + " * " + x + " = " + ((y + 1) * x) + "\t");
-				result = result + (y + 1) + " * " + x + " = " + ((y + 1) * x) + "\t";
+				result = result + (y + 1) + " * " + x + " = " + ((y + 1) * x);
 //				System.out.print((y + 2) + " * " + x + " = " + ((y + 2) * x) + "\t");
-				result = result + (y + 2) + " * " + x + " = " + ((y + 2) * x) + "\t";
+				result = result + (y + 2) + " * " + x + " = " + ((y + 2) * x);
 //				System.out.println();
 				result = result + "<br>";
 			}

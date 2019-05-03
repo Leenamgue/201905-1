@@ -18,7 +18,7 @@ public class Main4 extends HttpServlet {
 		String result = "";
 //		result = 문제.lv1();
 		result = 문제.lv2();
-		
+		System.out.println(result);
 		response.getWriter().print(result);
 	}
 
